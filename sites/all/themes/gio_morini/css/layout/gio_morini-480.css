@@ -1,0 +1,11 @@
+/* Gio Morini layout styles */
+/* Targets screens between 480px and 768px */
+
+/* Hide sidebars, tryptich and footer-columns in smaller screens */
+/* You can, optionally, show these regions below the content */
+
+aside.sidebar,
+div.triptych-wrapper,
+div.footer-columns {
+  display: none;
+}

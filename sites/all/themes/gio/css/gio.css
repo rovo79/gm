@@ -1,0 +1,378 @@
+/* Place your theme's base styles here! */
+/* Remember, this theme uses media queries for responsive layouts! */
+/* This means that you should only put styles here that are common to all screen sizes. */
+h1 {
+	font-size: 2.3em;
+	padding: 30px 0 50px 0;
+}
+h2 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1.2em;
+line-height: 1.4em;
+margin: 0 0 2em;
+}
+a, a:visited {
+	color: #dddddd;
+	text-decoration: none;
+}
+a:hover {
+	color: #efefef;
+	text-decoration: underline;
+}
+.front #page-title {
+	display: none;
+}
+#content {
+box-sizing: border-box;
+	overflow-y: hidden;
+}
+.messages {
+	display: none;
+}
+div.page {
+	background: #fff;
+	width: 100%;
+}
+.site-name {
+	font-size: 34px;
+		padding: 30px 0;
+	}
+.site-name a {
+	color: #333;
+	text-decoration: none;
+}
+ul.inline li {
+	float: left;
+	padding: 0;
+}
+.main-menu li a {
+color: #000000;
+/*
+background: #CCC;
+background: rgba(255, 255, 255, 0.7);
+*/
+font-size: 16px;
+float: left;
+height: 3em;
+line-height: 3em;
+padding: 0 1em;
+text-decoration: none;
+/*
+text-shadow: 0 -1px #EEE;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+text-transform: uppercase;
+*/
+  -webkit-box-shadow: 0 -1px 0px rgba(255,255,255,0.3);
+-moz-box-shadow: 0 -1px 0px rgba(255,255,255,0.3);
+box-shadow: 0 -1px 0px rgba(255,255,255,0.3);
+}
+
+.main-menu li.first a {
+-khtml-border-radius-topleft: 8px;
+-moz-border-radius-topleft: 8px;
+-webkit-border-top-left-radius: 8px;
+border-top-left-radius: 8px;	
+}
+.main-menu li.last a {
+	-khtml-border-radius-topright: 8px;
+	-moz-border-radius-topright: 8px;
+	-webkit-border-top-right-radius: 8px;
+	border-top-right-radius: 8px;
+}
+.main-menu li.first {
+	padding-right: 0;
+}
+.page-wrapper {
+	background: url(http://subtlepatterns.com/patterns/furley_bg.png);
+}
+  
+  #header, div.page {
+  background: transparent;
+  }
+  #header {
+  background: url(../images/header-bg-red.png) no-repeat 7px -21px;
+  }
+  #header, .main, .footer-wrapper {
+  /* width: 940px; */
+margin: 0 auto;
+  }
+  .main {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .main-menu {
+  float: right;
+  }
+
+/*   main nav colors */
+.main-menu li .home {
+	background-color: #5897A1;
+}
+.main-menu li .home:hover {
+	background-color: #98c0c7;
+}
+.main-menu li .presentations--publications {
+	background-color: #c8ce65;
+	/*background: #C62F43; //red */
+}
+.main-menu li .presentations--publications:hover {
+	background-color: #aeb53a;
+	/*background: #C62F43; //red */
+}
+.main-menu li .research {
+	background: #DC5A5A;
+}
+.main-menu li .research:hover {
+	background: #EEAEAE;
+}
+.main-menu li .teaching {
+	background: #ffbb33;
+}
+.main-menu li .teaching:hover {
+	background: #ff8800;
+}   
+.main-menu li .cv {
+	background: #999999;
+} 
+.main-menu li .cv:hover {
+	background: #555;
+} 
+.main-menu li .related-links {
+	background: #B46D8D;
+}
+.main-menu li .related-links:hover {
+	background: #cb9ab0;
+}
+.main-menu li .contact {
+	background: #AF946C;
+}
+.main-menu li .contact:hover {
+	background: #F8E4B2;
+}
+
+.content-inner {
+  padding: 10px 20px 90px;
+  }
+/*  page colors */  
+.page-node-1 .main {
+	background-color: #5897A1;
+} 
+.page-node-2 .main {
+	background-color: #DC5A5A;
+}  
+.page-node-3 .main {
+	background-color: #c8ce65;
+}
+.page-node-4 .main {
+	background-color: #ffbb33;
+}  
+.page-node-9 .main {
+	background-color: #999999;
+} 
+.page-node-10 .main {
+	background-color: #B46D8D;
+}
+.page-node-11 .main {
+	background-color: #AF946C;
+}       
+/* main background colors */
+.page-node-1 .main-wrapper {
+	background: #98c0c7;
+}
+.page-node-2 .main-wrapper {
+	background: #EEAEAE;
+}  
+.page-node-3 .main-wrapper {
+	background: #aeb53a;
+} 
+.page-node-4 .main-wrapper {
+	background: #ff8800;
+}
+.page-node-9 .main-wrapper {
+	background: #555555;
+}
+.page-node-10 .main-wrapper {
+	background: #cb9ab0;
+}
+.page-node-11 .main-wrapper {
+	background: #F8E4B2;
+}   
+.main, .main-menu li a {
+	background-image: url(../images/square_bg.png) !important;
+}
+ 
+.main-wrapper {
+  -webkit-box-shadow: inset 0 5px 5px rgba(0,0,0,0.2);
+-moz-box-shadow: inset 0 5px 5px rgba(0,0,0,0.2);
+	box-shadow: inset 0 5px 5px rgba(0,0,0,0.2);
+	padding-bottom: 50px;
+}
+.skip-link {
+	display: none;
+}
+th {
+	vertical-align: top;
+	width: 110px;
+}
+td.date {
+	width: 120px;
+}
+/* CV */
+.page-node-9  h2 {
+	background: #555;
+	clear: right;
+	color: white;
+	padding: 5px 10px 5px 27px;
+	line-height: 1;
+	margin-bottom: 15px;	
+}
+.page-node-9 table {
+	margin-left: 30px;
+}
+.page-node-9 a.download {
+	float: right;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+.page-node-3 h2 {
+	background: #aeb53a;
+	clear: right;
+	color: #000;
+	padding: 5px 10px 5px 27px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+.page-node-2 h2 {
+	background: #EEAEAE;
+	clear: right;
+	color: #000;
+	padding: 5px 10px 5px 27px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+.page-node-3 p {
+	padding-left: 30px;
+}
+.page-node-1 .email a {
+	padding-left: 330px;
+}
+/* BACKGROUND SHAPE */
+.page-node-1 .content-inner {
+	background: url(../images/home-bg.png) no-repeat 98% 99%;
+	padding-bottom: 10px;
+}
+.page-node-3 .content-inner {
+	background: url(../images/presentations-bg.png) no-repeat 98% 99%;
+}
+.page-node-4 .content-inner {
+	background: url(../images/teaching-bg.png) no-repeat 98% 99%;
+}
+.page-node-9 .content-inner {
+	background: url(../images/cv-bg.png) no-repeat 98% 99%;
+}
+.page-node-9 .content-inner {
+	background: url(../images/cv-bg.png) no-repeat 98% 99%;
+}
+.page-node-10 .content-inner .resources {
+	background: url(../images/related-bg.png) no-repeat 98% 85%;
+}
+/* END BACKGROUND SHAPE */
+
+.related .affiliations, .related .labs {
+	float: left;
+	width: 455px;
+}
+.related h2 {
+	background: #CB9AB0;
+	font-size: 1.5em;
+	padding: 5px 0;
+	text-align: center;
+}
+.related {
+background-image: url(../images/square_bg.png);
+border: 5px solid white;
+}
+.related ul {
+	list-style: none;
+	text-align: center;
+}
+.related ul li {
+	font-size: 1.2em;
+	padding-bottom: 1.5em;
+}
+
+.related .labs{
+	background: #7c3f5b url(../images/square_bg.png) repeat;
+	border-left: 5px solid white;
+}
+
+.related .affiliations {
+	background: #9d5173 url(../images/square_bg.png) repeat;
+	height: 346px;
+}
+.related .resources {
+	background: url(../images/square_bg.png);
+	border-top: 5px solid white;
+	clear: left;
+}
+.resources-wrapper {
+	width: 70%;
+	margin: 0 auto;
+	height: 390px;
+	padding: 15px 0;
+}
+
+.front img.border {
+	margin-right: 20px; 
+	border: 5px solid rgb(152, 192, 199); float: left;
+}
+.section-research img.border {
+	margin-right: 20px; 
+	border: 5px solid #EEAEAE;
+}
+
+
+/* If you are using the "Enable Ajax Loader" option from Zentropy, you can customize the loader using the below selector */
+/* Zentropy ships with a sweet spinning Druplicon Ajax Loader but we understand it may be a bit too awesome for everyday use. */
+
+/*.zentropy-loader .zentropy-loader-image {
+  background-image: url('../images/your-awesome-loader.gif');
+}*/
+
+
+
+/* If you are using the CSS3Pie component, add the following style to the selectors you want to support: */
+/* behavior: url('/sites/all/libraries/css3pie/PIE.htc'); */
+/*  For example:
+
+    .rounded-corners {
+      -moz-border-radius: 6px;
+      -webkit-border-radius: 6px;
+      border-radius: 6px;
+      behavior: url('/sites/all/libraries/css3pie/PIE.htc');
+    }
+
+    NOTE: If you are having trouble with certain elements, adding "position: relative;" can help fix things!
+*/
+
+
+
+/* Print Styles
+-------------------------------------------------------------------------------
+  Inlined to avoid required HTTP connection: h5bp.com/r
+
+  If you are targeting Internet Explorer 6-8 you can:
+    * Either enable the "css3-mediaqueries-js" additional component (for more info on components please see Zentropy's README.txt or project page: http://drupal.org/project/zentropy
+    * Delete the below lines and uncomment the print stylesheet in gio.info
+  If not, uncomment the below lines and add your print styles!
+
+/* @media print {
+  
+}*/

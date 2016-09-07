@@ -1,0 +1,11 @@
+/* gio layout styles */
+/* Targets screens between 992px and 1382px */
+
+div.page {
+  width: 100%;
+  margin: 0 auto;
+}
+.header, .main {
+	width: 966px;
+	margin: 0 auto;
+}

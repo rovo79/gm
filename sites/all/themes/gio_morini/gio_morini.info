@@ -1,0 +1,65 @@
+; Theme Info -----------------------------------------------------------------
+; required information about the theme
+
+name = Gio Morini
+description = Gio Morini is a Zentropy subtheme. Zentropy is a highly-optimized, extensible and responive HTML5 base theme.
+screenshot = images/gio_morini.png
+core = 7.x
+base theme = zentropy
+
+; Stylesheets  ---------------------------------------------------------------
+; All devices get base stylesheet.
+; Layout styles are determined with media queries.
+
+; Want to know more about these styles or create your own responsive styles?
+;   Check out css/README.txt for detailed information on all things CSS.
+
+stylesheets[all][] = css/gio_morini.css
+
+; Styles for progressively larger displays */
+
+stylesheets[only screen and (min-width : 320px) and (max-width : 480px)][] = css/layout/gio_morini-320.css
+stylesheets[only screen and (min-width : 480px) and (max-width: 768px)][] = css/layout/gio_morini-480.css
+stylesheets[only screen and (min-width : 768px) and (max-width: 992px)][] = css/layout/gio_morini-768.css
+stylesheets[only screen and (min-width : 992px) and (max-width: 1382px)][] = css/layout/gio_morini-992.css
+stylesheets[only screen and (min-width : 1382px)][] = css/layout/gio_morini-1382.css
+
+; Styles iPhone 4, Opera Mobile 11 and other high pixel ratio devices.
+stylesheets[only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5)][] = css/gio_morini-hipixel.css
+
+scripts[] = js/gio_morini.js
+
+; Regions --------------------------------------------------------------------
+; These content regions are available for block placement.
+; Some are special hidden regions: page_top, page_bottom, and help.
+; Subthemes must re-declare regions.
+
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer_firstcolumn] = Footer first column
+regions[footer_secondcolumn] = Footer second column
+regions[footer_thirdcolumn] = Footer third column
+regions[footer_fourthcolumn] = Footer fourth column
+regions[footer] = Footer
+; Information added by drupal.org packaging script on 2012-02-28
+version = "7.x-2.0-beta8"
+core = "7.x"
+project = "zentropy"
+datestamp = "1330410054"
+
