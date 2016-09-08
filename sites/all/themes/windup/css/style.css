@@ -47,7 +47,7 @@ a.header__sitename {
     opacity: 0.6; }
 
 .go-to-nav {
-  padding: 12px 10px 0 10px;
+  padding: 12px 10px 0;
   float: right;
   margin-bottom: 0;
   color: #ffffff;
@@ -158,6 +158,9 @@ a.header__sitename {
       @media screen and (min-width: 45em) {
         .block-system-main-menu .menu li.first {
           display: block; } }
+
+article .field-item ul {
+  overflow: auto; }
 
 /* generated with grunt-sass-globbing */
 /* generated with grunt-sass-globbing */

@@ -25,6 +25,7 @@ header {
     background: #839221;
   }
 }
+
 .header .wrap {
   width: 80%;
   margin: 0 auto;
@@ -34,27 +35,29 @@ header {
     width: auto;
   }
 }
+
 a.header__sitename {
   text-decoration: none;
-color: white;
-text-transform: uppercase;
-padding: 14px 0;
-display: block;
-margin-bottom: 0;
-font-size: 1.2rem;
-float: left;
-@media screen and (min-width: #{ $max-width + 5 + 'em'}) {
-  float: none;
-  padding: 10px 0;
-}
-&:hover {
-  color: #ffffff;
-  opacity: 0.6;
-}
+  color: white;
+  text-transform: uppercase;
+  padding: 14px 0;
+  display: block;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  float: left;
+  @media screen and (min-width: #{ $max-width + 5 + 'em'}) {
+    float: none;
+    padding: 10px 0;
+  }
+
+  &:hover {
+    color: #ffffff;
+    opacity: 0.6;
+  }
 }
 
 .go-to-nav {
-  padding: 12px 10px 0 10px;
+  padding: 12px 10px 0;
   float: right;
   margin-bottom: 0;
   color: #ffffff;
@@ -68,23 +71,23 @@ float: left;
     position: relative;
     margin-bottom: 0;
 
-    span {
-      height: 1px;
-width: 100%;
-display: block;
-background: white none repeat scroll 0 0;
-border-radius: 1px;
--webkit-transform: rotate(0deg);
--ms-transform: rotate(0deg);
-transform: rotate(0deg);
--webkit-transition: -webkit-transform 0.3s linear 0s;
-transition: -webkit-transform 0.3s linear 0s;
-transition: transform 0.3s linear 0s;
-transition: transform 0.3s linear 0s, -webkit-transform 0.3s linear 0s;
-position: absolute;
-top: 47%;
-margin-bottom: 0;
-    }
+span {
+  height: 1px;
+  width: 100%;
+  display: block;
+  background: white none repeat scroll 0 0;
+  border-radius: 1px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.3s linear 0s;
+  transition: -webkit-transform 0.3s linear 0s;
+  transition: transform 0.3s linear 0s;
+  transition: transform 0.3s linear 0s, -webkit-transform 0.3s linear 0s;
+  position: absolute;
+  top: 47%;
+  margin-bottom: 0;
+}
 
     span:first-child {
       top: 0;
@@ -140,8 +143,8 @@ margin-bottom: 0;
       flex-direction: row;
     }
 
-  li {
-    display: block;
+li {
+  display: block;
   text-align: left;
   text-decoration: none;
   flex: 1 1 auto;
@@ -162,17 +165,23 @@ margin-bottom: 0;
       margin: 0;
       padding: 0.6rem 0;
       margin: inherit;
+
       &.active,
       &:hover {
         background: #839221;
       }
     }
   }
+
   &.first {
     display: none;
     @media screen and (min-width: #{ $max-width + 5 + 'em'}) {
       display: block;
     }
   }
-  }
+}
+}
+
+article .field-item ul {
+  overflow:auto;
 }
