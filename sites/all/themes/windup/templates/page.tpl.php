@@ -82,6 +82,16 @@
     <?php else: ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__sitename"><?php print $site_name; ?></a>
     <?php endif; ?>
+    
+<a href="#menu" class="go-to-nav">
+                  <span class="icon-bar-block">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </span>
+                  <span class="menu-btn-text">menu</span>
+                </a>
+
 
     <?php print render($page['header']); ?>
 </div>

@@ -28,7 +28,7 @@ stylesheets[all][] = css/style.css
 ; endbower
 
 ; Local JavaScript
-; scripts[] = js/windup.js
+scripts[] = js/windup.js
 
 regions[header]         = Header
 regions[help]           = Help Messages
