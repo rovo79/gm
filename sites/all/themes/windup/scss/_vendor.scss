@@ -92,7 +92,8 @@
 $max-width: 40;
 $base-font-size-desktop: 100;
 $theme: OpenSans;
-@import '../node_modules/gutenberg-web-type/src/style/gutenberg.scss';
+//@import '../node_modules/gutenberg-web-type/src/style/gutenberg.scss';
+@import "/gutenberg/src/style/gutenberg.scss";
 
 body,
 html,
