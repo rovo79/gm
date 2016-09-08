@@ -1,4 +1,104 @@
 /*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  /*padding: 0.5em;*/
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/*
 Gutenberg: Web Typography Starter Kit
 Website ....... http://matejlatin.github.io/Gutenberg/
 Version ....... 1.1
@@ -13,21 +113,21 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
    ========================================================================== */
 /* Font themes
    ========================================================================== */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
-@media screen and (min-width: 40em) {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
+@media screen and (min-width: 45em) {
   .floatLeft {
     float: left;
   }
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .floatCenter {
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .floatRight {
     float: right;
   }
@@ -42,7 +142,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
   background-size: 100% 26px;
   background-size: 100% 1.625rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .grid, .grid-double {
     background-size: 100% 31px;
     background-size: 100% 1.722222222222222rem;
@@ -52,7 +152,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
 .grid-double {
   background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px, transparent 13px, rgba(0, 170, 255, 0.2) 13px, transparent 14px, transparent 26px);
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .grid-double {
     background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px, transparent 15.5px, rgba(0, 170, 255, 0.2) 15.5px, transparent 16.5px, transparent 31px);
   }
@@ -68,7 +168,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
   padding: 0 10px 0 20px;
   height: 32px;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .toggleWrapper {
     right: 31px;
     top: 31px;
@@ -89,7 +189,7 @@ License URL ... https://raw.githubusercontent.com/matejlatin/Gutenberg/master/li
   font-weight: 700;
   color: #fff;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   .btnToggleGrid {
     top: 31px;
     right: 31px;
@@ -116,7 +216,7 @@ aside {
 
 /* Defaults
    ========================================================================== */
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   body,
   html {
     margin: 0;
@@ -129,12 +229,12 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-size: 100%;
-  font-family: Merriweather, Georgia, serif;
+  font-family: Open Sans, Arial, Helvetica, Sans-serif;
   color: #222;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   html {
     font-size: 18px;
     font-size: 1.125rem;
@@ -147,14 +247,14 @@ html {
   margin: 0px 0px 26px;
   margin: 0rem 0rem 1.625rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   * {
     line-height: 31px;
     line-height: 1.722222222222222rem;
     margin-bottom: 31px;
     margin-bottom: 1.722222222222222rem;
-    max-width: 630px;
-    max-width: 35rem;
+    max-width: 720px;
+    max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -218,10 +318,10 @@ article {
   margin: 0 auto;
   width: 80%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   article {
-    max-width: 945px;
-    max-width: 52.5rem;
+    max-width: 1080px;
+    max-width: 60rem;
   }
 }
 
@@ -255,7 +355,7 @@ code {
   padding: 1.625rem;
   display: block;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   code {
     padding: 31px;
     padding: 1.722222222222222rem;
@@ -280,7 +380,7 @@ figcaption {
   margin-bottom: 0;
   text-align: center;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figcaption {
     line-height: 31px;
     line-height: 1.722222222222222rem;
@@ -292,16 +392,16 @@ figure {
   display: block;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figure.floatLeft,
   figure.floatRight {
-    max-width: 315px;
-    max-width: 17.5rem;
+    max-width: 360px;
+    max-width: 20rem;
     padding: 0px 31px;
     padding: 0rem 1.722222222222222rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figure.floatLeft blockquote,
   figure.floatRight blockquote {
     padding: 0px;
@@ -309,7 +409,7 @@ figure {
     text-align: left;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figure.floatLeft blockquote p,
   figure.floatRight blockquote p {
     font-size: 19.2px;
@@ -387,7 +487,7 @@ h6 {
   margin-bottom: 0.8125rem;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   h1 {
     font-size: 40px;
     font-size: 2.5rem;
@@ -458,7 +558,7 @@ h1 + h2 {
   margin-top: 26px;
   margin-top: 1.625rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   h1 + h2 {
     margin-top: 31px;
     margin-top: 1.722222222222222rem;
@@ -471,7 +571,7 @@ h4 + h5 {
   margin-top: 13px;
   margin-top: 0.8125rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   h2 + h3,
   h3 + h4,
   h4 + h5 {
@@ -484,7 +584,7 @@ h5 + h6 {
   margin-top: -13px;
   margin-top: -0.8125rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   h5 + h6 {
     margin-top: -15.5px;
     margin-top: -0.861111111111111rem;
@@ -518,7 +618,7 @@ hr {
   background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #222 11px, #222 15px, transparent 15px, transparent 26px);
   width: 100px;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   hr {
     margin-top: 62px;
     margin-top: 3.444444444444445rem;
@@ -528,7 +628,7 @@ hr {
     height: 1.722222222222222rem;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   hr {
     background-size: 100% 31px;
     background-size: 100% 1.722222222222222rem;
@@ -565,7 +665,7 @@ blockquote {
   font-style: italic;
   padding-left: 1.4375rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   blockquote {
     padding-left: 2rem;
   }
@@ -580,7 +680,7 @@ figure blockquote {
   padding: 26px 0px;
   padding: 1.625rem 0rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figure blockquote {
     padding: 62px 0px 31px;
     padding: 3.444444444444445rem 0rem 1.722222222222222rem;
@@ -593,7 +693,7 @@ figure blockquote p {
   line-height: 39px;
   line-height: 2.4375rem;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   figure blockquote p {
     font-size: 27px;
     font-size: 1.6875rem;
@@ -651,7 +751,7 @@ small {
   line-height: 0.8125rem;
   font-size: 70%;
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 45em) {
   small {
     line-height: 15.5px;
     line-height: 0.861111111111111rem;

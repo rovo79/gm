@@ -16,6 +16,7 @@ stylesheets[all][]      = system.menus.css
 ; endbower
 
 ; Local Stylesheets
+stylesheets[all][] = css/combined.css
 stylesheets[all][] = css/style.css
 
 ; JavaScripts

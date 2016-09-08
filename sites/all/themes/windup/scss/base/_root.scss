@@ -3,6 +3,21 @@
 *:after {
   box-sizing: border-box;
 }
+
+body,
+html,
+header,
+main,
+#page {
+
+  @media screen and (min-width: #{ $max-width + 5 + 'em'}) {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+
+}
+
 header {
   background: #9cad27;
   border-bottom: 4px solid #c2d543;
