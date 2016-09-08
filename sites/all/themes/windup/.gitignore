@@ -6,8 +6,8 @@
 .idea/*
 
 # Ignore output css
-css/style.css
-css/style.css.map
+#css/style.css
+#css/style.css.map
 
 # Ignore node modules
 node_modules

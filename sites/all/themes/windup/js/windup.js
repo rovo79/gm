@@ -11,7 +11,7 @@
       jQuery(document).ready(function() {
 
                     var $menu = $('.block-system-main-menu'),
-                        $menulink = $('.go-to-nav')
+                        $menulink = $('.go-to-nav');
 
                     $menulink.click(function() {
                         $menulink.toggleClass('active');
